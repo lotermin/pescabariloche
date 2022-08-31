@@ -1,0 +1,256 @@
+@font-face{
+    font-family: Rubik;
+    src: url('./fonts/Rubik/Rubik-VariableFont_wght.ttf');
+}
+@font-face{
+    font-family: RubikDirt;
+    src: url('./fonts/Rubik_Dirt/RubikDirt-Regular.ttf');
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Rubik;
+    margin: 0;
+    padding: 0;
+    padding-top: 95px;
+    background-color: #283618 ;
+    gap: 15px;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2% 0 2%;
+    background-color: #606c38;
+    height: 80px;
+    width: 100%;
+    top:0px;
+    z-index: 1;
+}
+.logo{
+    font-family: RubikDirt;
+    font-size: 30px;
+    padding: 10px;
+    color: #fefae0;
+    font-weight: 100;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu li a{
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fefae0;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.menu li a:hover{
+    background-color: #283618;
+    transition: 0.5s;
+}
+
+.userPanel i{
+    font-size: 22px;
+    color: #fefae0;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.userPanel i:hover{
+    background-color: #283618;
+    transition: 0.5s;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px 0 30px 0;
+    background-color: #fefae0;
+    gap: 10px
+}
+.txtHero{
+    width: 100%;
+    text-align: center;
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-shadow: #bc6c25 0.1em 0.1em 0.2em
+}
+
+.imageHero{
+    max-width: 30%;
+    min-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    border: 3px solid #bc6c25;
+    opacity: 60%;
+    
+}
+.nosotros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fefae0;
+}
+.txtNostros{
+    max-width: 600px;
+    min-width: 200px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+}
+
+.imageNostros{
+    width: 30%;
+    padding: 10px
+}
+
+.galery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fefae0;
+    gap: 20px;
+}
+
+.imageGalery{
+    max-width: 30%;
+    min-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    border: 3px solid #bc6c25;
+    opacity: 60%;
+}
+.imageGalery:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.contacto h1{
+    width: 20%;
+    font-family: RubikDirt;
+    font-size: 30px;
+    padding: 10px;
+    color: #fefae0;
+    font-weight: 100;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.contactoMenu{
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.contactoMenu a{
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fefae0;
+}
+
+.contactForm{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px
+}
+
+.contactForm input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #dda15e;
+    border: 3px solid #bc6c25;
+    
+}
+
+.contactForm textarea{
+    width: 300px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #dda15e;
+    border: 3px solid #bc6c25;
+    resize: none;
+}
+
+.contactForm button{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #dda15e;
+    border: 3px solid #bc6c25;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fefae0;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px 0 10px;
+    background-color: #606c38;
+    
+}
+
+.footer p{
+    font-size: 18px;
+    color: #fefae0;
+}
+
+.footer div a{
+    text-decoration: none;
+    color: #bc6c25;
+    font-size: 28px;
+    text-shadow: #fefae0 0.1em 0.1em 0.2em;
+    padding: 5px;
+}
