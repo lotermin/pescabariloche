@@ -19,6 +19,9 @@ body{
     background-color: #283618 ;
     gap: 15px;
 }
+a{
+    text-decoration: none;
+}
 
 .header{
     display: flex;
@@ -52,7 +55,6 @@ body{
 
 .menu{
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
     list-style: none;
     padding: 10px;
