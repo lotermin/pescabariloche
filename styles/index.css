@@ -25,9 +25,10 @@ body{
     position: fixed;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0 2% 0 2%;
     background-color: #606c38;
-    height: 80px;
+    min-height: 80px;
     width: 100%;
     top:0px;
     z-index: 1;
