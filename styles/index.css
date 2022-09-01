@@ -42,7 +42,7 @@ a{
     padding: 10px;
     color: #fefae0;
     font-weight: 100;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
 
 }
 .navbar{
@@ -68,6 +68,7 @@ a{
     color: #fefae0;
     padding: 8px 12px;
     border-radius: 3px;
+    transition: 0.5s;
 }
 
 .menu li a:hover{
@@ -80,6 +81,7 @@ a{
     color: #fefae0;
     padding: 8px 12px;
     border-radius: 3px;
+    transition: 0.5s;
 }
 .userPanel i:hover{
     background-color: #283618;
@@ -155,8 +157,10 @@ a{
     border-radius: 20px;
     border: 3px solid #bc6c25;
     opacity: 60%;
+    transition: 1s;
 }
 .imageGalery:hover{
+    transition: 1s;
     opacity: 100%;
     cursor: pointer;
 }
@@ -235,6 +239,7 @@ a{
     font-weight: 400;
     color: #fefae0;
     text-shadow: black 0.1em 0.1em 0.2em;
+    cursor: pointer;
 }
 
 .footer{
